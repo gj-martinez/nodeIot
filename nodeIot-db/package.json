@@ -1,0 +1,35 @@
+{
+  "name": "nodeiot-db",
+  "version": "1.0.0",
+  "description": "Plataforma Iot - DB module",
+  "main": "index.js",
+  "scripts": {
+    "test": "DEBUG=nodeiot:* ava --verbose",
+    "setup": "DEBUG=nodeiot:* node setup.js",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gj-martinez/nodeIot.git"
+  },
+  "author": "gonzalo martinez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gj-martinez/nodeIot/issues"
+  },
+  "homepage": "https://github.com/gj-martinez/nodeIot#readme",
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "sqlite3": "^5.0.2",
+    "standard": "^16.0.4"
+  },
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "debug": "^4.3.3",
+    "defaults": "^1.0.3",
+    "inquirer": "^8.2.0",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.12.0-beta.3"
+  }
+}
