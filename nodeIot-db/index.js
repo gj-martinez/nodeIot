@@ -33,11 +33,15 @@ module.exports = async function (config) {
 
 <<<<<<< HEAD
   const Agent = setupAgent(AgentModel)
+<<<<<<< HEAD
   const Metric = setupMetric(MetricModel, AgentModel)
 =======
   const Agent = {}
   const Metric = {}
 >>>>>>> parent of 90826d4... termiando base de datos
+=======
+  const Metric = setupMetric(MetricModel,AgentModel)
+>>>>>>> parent of 2fa06f6... modificacion de setup y nueva db
 
   return {
     Agent,

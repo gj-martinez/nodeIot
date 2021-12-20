@@ -6,11 +6,15 @@
   "scripts": {
 <<<<<<< HEAD
     "test": "DEBUG=nodeiot:* nyc --reporter=lcov ava --verbose",
+<<<<<<< HEAD
     "setup": "DEBUG=iotnode:* node setup.js",
 =======
     "test": "DEBUG=nodeiot:* ava --verbose",
     "setup": "DEBUG=nodeiot:* node setup.js",
 >>>>>>> parent of 90826d4... termiando base de datos
+=======
+    "setup": "DEBUG=nodeiot:* node setup.js",
+>>>>>>> parent of 2fa06f6... modificacion de setup y nueva db
     "lint": "standard"
   },
   "repository": {
