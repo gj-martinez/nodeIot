@@ -1,6 +1,6 @@
 'use strict'
 
-const debug = require('debug')('nodeIot:db')
+const debug = require('debug')('iotnode:db')
 const inquirer = require('inquirer')
 const db = require('./')
 
@@ -19,8 +19,8 @@ async function setup () {
     return console.log('Nothing happened :)')
   }
   const config = {
-    database: process.env.DB_NAME || 'nodeiot',
-    username: process.env.DB_USERNAME || 'gonzalo',
+    database: process.env.DB_NAME || 'iotnode',
+    username: process.env.DB_USERNAME || 'admin',
     password: process.env.DB_PASS || 'platzi',
     host: process.env.DB_HOST || 'localhost',
     dialect: 'postgres',
